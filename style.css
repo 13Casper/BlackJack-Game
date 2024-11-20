@@ -18,4 +18,47 @@ body{
     background-image: url(Images/background.jpg);
     /* background-size: cover; */
     color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgb(57, 57, 57), 3px -3px 10px rgb(57, 57, 57);
+    max-width: 568px;
+    max-height: 352;
+}
+
+#titleGame{
+    font-size: 4rem;
+    margin-top: 10px;
+    color: rgb(200, 170, 4);
+}
+
+p{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+#cards-el, #sum-el{ 
+    font-size: 2rem;
+}
+
+button{
+    margin-top: 15px;
+    background-color: rgb(200, 170, 4);
+    height: 3rem;
+    color: white;
+    width: 10rem;
+    border-radius: 10px;
+    border: 1px solid rgb(200, 170, 4);
+    box-shadow: 5px 5px 5px black;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#name-el{
+    font-size: 1rem;
+    margin-top: 25px;
 }
