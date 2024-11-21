@@ -9,12 +9,34 @@
   <body>
     <div id="game">
       <h1 id="titleGame">BlackJack</h1>
-      <p id="message-el">Lets play a game</p>
-      <p id="cards-el">Cards:</p>
-      <p id="sum-el">Sum:</p>
-      <button onclick="startGame()">START GAME</button>
-      <button onclick="newCard()">NEW CARD</button>
-      <!-- <p id="name-el">Behim Jakuposki $200</p> -->
+      <div id="game-1">
+        <div id="div-you">
+          <p id="yourName-el">You:</p>
+          <p id="yourCards-el">Cards:</p>
+          <p id="yourSum-el">Sum:</p>
+        </div>
+        <div id="div-opponent">
+          <p>Dealer:</p>
+          <p id="opponentCards-el">Cards:</p>
+          <p id="opponentSum-el">Sum:</p>
+        </div>
+      </div>
+      <p id="message-el"></p>
+      <div id="game-2">
+        <button onclick="startGame()">START GAME</button>
+        <br />
+        <button onclick="hitMe()">HIT ME</button>
+        <button onclick="stand()">STAND</button>
+        <br />
+        <input id="inputName-el" type="text" />
+        <button onclick="enterName()">ENTER YOUR NAME</button>
+        <br />
+        <input id="inputBet-el" type="number" />
+        <button onclick="enterBet()">ENTER YOUR BET</button>
+      </div>
+
+      <p id="money-el">1000$</p>
+
       <script src="scritp.js"></script>
     </div>
   </body>

@@ -11,32 +11,36 @@ body{
 }
 
 #game{
-    height: 50%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
     border: 1px solid black;
     text-align: center;
     background-image: url(Images/background.jpg);
-    /* background-size: cover; */
     color: white;
-    border-radius: 15px;
-    box-shadow: 3px 3px 10px rgb(57, 57, 57), 3px -3px 10px rgb(57, 57, 57);
-    max-width: 568px;
-    max-height: 352;
 }
 
 #titleGame{
-    font-size: 4rem;
+    font-size: 8vw;
     margin-top: 10px;
     color: rgb(200, 170, 4);
 }
 
+#game-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 15px;
 }
 
-#cards-el, #sum-el{ 
-    font-size: 2rem;
+input{
+    background-color: transparent;
+    height: 3rem;
+    width: 10rem;
+    color: white;
+    font-size: 1.2rem;
 }
 
 button{
@@ -56,9 +60,4 @@ button:hover{
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-#name-el{
-    font-size: 1rem;
-    margin-top: 25px;
 }
